@@ -1,0 +1,16 @@
+print('A program for print list function')
+list = [ 2,4,5,5,5,6,'hello','ratio' ]
+print(list)
+print(list[4])
+list.remove('hello')
+print(list)
+list.append('my')
+print(list)
+print(list[3:8])
+newlist = list.copy()
+print(newlist)
+print(newlist.count(6))
+print(newlist)
+list.index('my')
+print("printlist:",list)
+
